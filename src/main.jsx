@@ -26,11 +26,11 @@ const projectId = 'YOUR_PROJECT_ID'
 
 // 2. Set chains
 const chain = {
-  chainId: 17000,
-  name: 'Holesky',
-  currency: 'ETH',
-  explorerUrl: 'https://etherscan.io',
-  rpcUrl: 'https://ethereum-holesky-rpc.publicnode.com'
+  chainId: 97,
+  name: 'BNB Smart Chain Testnet',
+  currency: 'BNB',
+  explorerUrl: 'https://bscscan.com/',
+  rpcUrl: 'data-seed-prebsc-1-s1.bnbchain.org:8545'
 }
 
 // 3. Create a metadata object
