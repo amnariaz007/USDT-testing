@@ -80,7 +80,7 @@ export function USDT() {
       const signer = ethersProvider.getSigner();
       const contract = new ethers.Contract(CROP_CONTRACT_ADDRESS, CROP_CONTRACT_ABI, signer);
 
-      const tx = await contract.transferCalculatedValue(ethers.utils.parseEther(amountToDistribute));
+      const tx = await contract.transferCalculatedUSDT(ethers.utils.parseEther(amountToDistribute));
       await tx.wait();
 
       alert("Amount distributed successfully!");
