@@ -68,26 +68,7 @@ export function BNB() {
     }
   };
 
-//   const distributeCalculatedValue = async (e) => {
-//     e.preventDefault();
 
-//     try {
-//       if (!address) {
-//         await open();
-//       }
-
-//       const ethersProvider = new ethers.providers.Web3Provider(walletProvider);
-//       const signer = ethersProvider.getSigner();
-//       const contract = new ethers.Contract(CROP_CONTRACT_ADDRESS, CROP_CONTRACT_ABI, signer);
-
-//       const tx = await contract.transferCalculatedValue(ethers.utils.parseEther(amountToDistribute));
-//       await tx.wait();
-
-//       alert("Amount distributed successfully!");
-//     } catch (error) {
-//       console.error("Error distributing value:", error);
-//     }
-//   };
 
 
   const distributeCalculatedValue = async (e) => {
