@@ -26,11 +26,11 @@ const projectId = 'YOUR_PROJECT_ID'
 
 // 2. Set chains
 const chain = {
-  chainId: 97,
-  name: 'BNB Smart Chain Testnet',
+  chainId: 56,
+  name: 'BNB Smart Chain',
   currency: 'BNB',
   explorerUrl: 'https://bscscan.com/',
-  rpcUrl: 'data-seed-prebsc-1-s1.bnbchain.org:8545'
+  rpcUrl: 'bsc-dataseed.binance.org'
 }
 
 // 3. Create a metadata object
