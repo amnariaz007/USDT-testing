@@ -20,6 +20,8 @@ export function BNB() {
     }
   }, []);
 
+  
+
   // Update localStorage whenever wallets change
   useEffect(() => {
     if (wallets.length > 0) {
