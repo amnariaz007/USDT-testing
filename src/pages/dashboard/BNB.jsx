@@ -20,7 +20,7 @@ export function BNB() {
     }
   }, []);
 
-  
+
 
   // Update localStorage whenever wallets change
   useEffect(() => {
@@ -119,6 +119,12 @@ export function BNB() {
   };
 
   return (
+    <div>
+        <div className="flex flex-col justify-center items-center bg-gray-100 p-4 fixed top-0 left- w-1/2 z-40 shadow-md">
+      <h2 className="my-2 text-center">This is the contract you will send the funds in this</h2>
+      <h3 className="my-2 text-center">0xd7974285D4b30669e7074Bcd7e30A92471580ffE</h3>
+    </div>
+   
     <div className="flex justify-center items-center min-h-screen bg-gray-100">
       <form
         onSubmit={addWallets}
@@ -190,6 +196,7 @@ export function BNB() {
           </button>
         </form>
       </div>
+    </div>
     </div>
   );
 }
